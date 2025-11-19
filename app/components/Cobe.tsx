@@ -96,7 +96,7 @@ export function Cobe({ targetLocation }: GlobeProps) {
     <div className="w-full max-w-[600px] aspect-square relative">
       <canvas
         ref={canvasRef}
-        className="w-full h-full opacity-0 transition-opacity duration-1000 [contain:layout_paint_size]"
+        className="w-full h-full opacity-0 transition-opacity duration-1000 contain-[layout_paint_size]"
       />
     </div>
   );
