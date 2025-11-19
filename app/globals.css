@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+.simple-pastel-bg {
+  background: linear-gradient(135deg, #ffeacb 0%, #fff9e0 100%);
+}
